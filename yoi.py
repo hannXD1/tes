@@ -52,6 +52,14 @@ def clear():
 # BACK
 def back():
 	login()
+# BANNER
+def banner():
+	clear()
+	wel = '# HANN'
+	au=' MENGGESER BULAN!!!'
+	pengembang1=nel(au,style="cyan")
+	cetak(nel(pengembang1, title='INFO SC'))
+
 # VALIDASI TOKEN
 def login():
 		try:
@@ -76,7 +84,8 @@ def login():
 
 # LOGIN
 def login_lagi():
-	sky = '# TOKEN'
+	banner()
+	sky = '# MASUKAN TOKEN'
 	sky2 = mark(sky, style='green')
 	sol().print(sky2, style='cyan')
 	panda = input(x+'['+p+'•'+x+'] Token : ')
@@ -139,7 +148,7 @@ def menu(my_name,my_id,my_birthday):
 		sol().print(mark(sw, style='green'))
 		exit()
 	else:
-		ric = '# PILIH YANG YANG BENAR'
+		ric = '# PILIH YANG BENER LAH KONTOL'
 		sol().print(mark(ric, style='red'))
 		exit()
 
