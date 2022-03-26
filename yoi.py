@@ -52,10 +52,6 @@ def clear():
 # BACK
 def back():
 	login()
-# BANNER
-def banner():
-	clear()
-	wel = '# HANN'
 # VALIDASI TOKEN
 def login():
 		try:
