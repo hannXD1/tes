@@ -55,13 +55,7 @@ def back():
 # BANNER
 def banner():
 	clear()
-	wel = '# TOOLS CRACK ZANCOK V2'
-	wel2 = mark(wel, style='cyan')
-	sol().print(wel2)
-	au='_________________  _________  ____  __. |\n\____    /\      \ \_   ___ \|    |/ _| |[•]Au : Yoshi\n  /     / /   |   \/    \  \/|      <   |[•]Wa : 6283125837776\n /     /_/    |    \     \___|    |  \  |[•]Fb : Mark.Zuckerberg.XV\n/_______ \____|__  /\______  /____|__ \ |[•]Gh : XhurayraEAAG\n        \/       \/        \/        \/ |'
-	pengembang1=nel(au,style="cyan")
-	cetak(nel(pengembang1, title='INFO SC'))
-
+	wel = '# HANN'
 # VALIDASI TOKEN
 def login():
 		try:
@@ -150,7 +144,7 @@ def menu(my_name,my_id,my_birthday):
 		sol().print(mark(sw, style='green'))
 		exit()
 	else:
-		ric = '# PILIH YANG BENER LAH KONTOL'
+		ric = '# PILIH YANG YANG BENAR'
 		sol().print(mark(ric, style='red'))
 		exit()
 
