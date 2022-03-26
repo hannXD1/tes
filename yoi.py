@@ -80,8 +80,7 @@ def login():
 
 # LOGIN
 def login_lagi():
-	banner()
-	sky = '# MASUKAN TOKEN'
+	sky = '# TOKEN'
 	sky2 = mark(sky, style='green')
 	sol().print(sky2, style='cyan')
 	panda = input(x+'['+p+'•'+x+'] Token : ')
